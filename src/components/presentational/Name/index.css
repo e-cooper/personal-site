@@ -1,11 +1,12 @@
 .Name {
   width: 100%;
-  background-color: #4263eb;
+  background-color: #43BF87;
   margin: 0 auto 20px auto;
   padding: 1rem 0;
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Fugaz One', sans-serif;
   font-weight: 400;
-  font-size: 3em;
+  font-size: 3.5em;
   color: white;
+  text-shadow: #333 1px 1px 0;
   border-bottom: .5rem solid rgba(0, 0, 0, 0.2);
 }

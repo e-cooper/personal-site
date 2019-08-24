@@ -6,9 +6,11 @@ import './index.css';
 function Description() {
   return (
     <div className="Description">
-      <SocialLink type={TYPES.LINKEDIN} />
-      <SocialLink type={TYPES.GITHUB} />
-      <SocialLink type={TYPES.EMAIL} />
+      <div className="SocialLinkBox">
+        <SocialLink type={TYPES.LINKEDIN} />
+        <SocialLink type={TYPES.GITHUB} />
+        <SocialLink type={TYPES.EMAIL} />
+      </div>
     </div>
   );
 }

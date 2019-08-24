@@ -1,23 +1,12 @@
 .SocialLink {
-  margin: 10px;
-  background-color: #4263eb;
-  padding: 1rem 1.5rem;
-  max-width: 250px;
-  min-width: 20%;
-  border-width: .25rem;
+  margin: .5rem;
+  padding: .5rem .75rem;
   border-radius: .5rem;
-  border-color: rgba(0, 0, 0, 0.2);
-  border-bottom-style: solid;
-  border-right-style: solid;
 }
 
-.SocialLink:hover,
-.SocialLink:active {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-bottom-style: none;
-  border-right-style: none;
-  border-top-style: solid;
-  border-left-style: solid;
+.SocialLink:hover .SocialLinkIcon,
+.SocialLink:active .SocialLinkIcon {
+  color: #E34038;
 }
 
 .SocialLinkIcon {
