@@ -3,9 +3,32 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
-.SocialLinkBox {
+.DescriptionText {
+  width: 50%;
+  line-height: 1.5rem;
+}
+
+.IconRow {
   display: flex;
-  flex-direction: row;
+}
+
+.Icon {
+  font-size: 2em;
+  align-self: center;
+}
+
+.Icon:nth-child(3) {
+  color: #E34038;
+  font-size: 4em;
+}
+
+.DashedLine {
+  height: 0;
+  width: 15px;
+  margin: 0 10px;
+  border-top: 2px dashed white;
+  align-self: center;
 }
