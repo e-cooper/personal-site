@@ -7,7 +7,7 @@ function Description() {
   return (
     <div className="Description">
       <p className="DescriptionText">
-        Hi, I'm a Frontend Engineer currently based in Austin, TX.
+        Hi, I'm currently a remote-based Frontend Engineering Manager.
       </p>
 
       <div className="IconRow">
@@ -25,7 +25,7 @@ function Description() {
       </div>
 
       <p className="DescriptionText">
-        My passion lies at the crossroads of intelligent design and adaptive technology.
+        I enjoy being a people leader at the crossroads of design and engineering.
       </p>
     </div>
   );
